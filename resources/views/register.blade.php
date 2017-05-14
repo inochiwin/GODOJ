@@ -43,6 +43,11 @@
                 right: 10px;
                 top: 18px;
             }
+            .top-left {
+                position: absolute;
+                left: 10px;
+                top: 18px;
+            }
 
             .content {
                 text-align: center;
@@ -69,7 +74,9 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-
+                <div class="top-left links">
+                  <a href="{{ url('/') }}">Home</a>
+                </div>
                 <div class="top-right links">
                     @if (Auth::check())
                         <a href="{{ url('/home') }}">Home</a>
@@ -81,10 +88,16 @@
 
             <div class="content">
                 <!--<div class="title m-b-md">-->
-                    <h1>News</h1>
+                    <h1>Register</h1>
                 <!-- </div>-->
                 <div class="news">
-                  hallo
+                  <form method="post">
+                    account<input name:"account" size:20><br>
+                    e-mail<input name:"e-mail" size:20><br>
+                    password<input name:"password" type="password" size:20><br>
+                    confirm password<input name:"password-confirm" type="password" size:20><br>
+                    <button type="submit" >submit</button>
+                  </form>
                 </div>
 
                 <div class="links">
