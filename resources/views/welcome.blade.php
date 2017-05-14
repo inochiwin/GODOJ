@@ -84,9 +84,9 @@
                     <h1>News</h1>
                 <!-- </div>-->
                 <div class="news">
-                  hallo
+                  hallo world!!
                 </div>
-
+                <p> test </p>
                 <div class="links">
 
                 </div>
