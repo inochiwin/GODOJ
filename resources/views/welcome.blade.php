@@ -84,7 +84,7 @@
                     <h1>News</h1>
                 <!-- </div>-->
                 <div class="news">
-                  hallo
+                  hello
                 </div>
 
                 <div class="links">
