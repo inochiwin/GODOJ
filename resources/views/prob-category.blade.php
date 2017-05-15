@@ -80,17 +80,7 @@
                 </div>
 
             <div class="content">
-                <div class="news">
-                    <h1>News</h1>
-                    <p>hello</p>
-                </div>
-                <div class="prob-category">
-                    <h1>分類題庫</h1>
-                    <a href="{{ url('/prob-category') }}">
-                        GO
-                        <!-- 這邊插入圖片 -->
-                    </a>
-                </div>
+                <h1> Category page </h1>
             </div>
         </div>
     </body>
